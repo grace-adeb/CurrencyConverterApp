@@ -50,7 +50,7 @@ canvas.pack()
 frame = tk.Frame(root, bg="#420D09")
 frame.place(relwidth= 0.9, relheight=0.8, relx=0.05, rely=0.1)
 
-#currency options, only base currency allowed in Fixer's free account is 'EUR'
+#currency options, only base currency allowed in fixer's free account is 'EUR'
 startOptions = ['EUR']
 targetOptions = ['AED', 'AUD', 'CAD', 'CNY', 'GBP', 'HKD', 'IDR', 'JPY', 'KRW', 'NGN', 'NOK', 'USD']
 
